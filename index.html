@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="jumbotron mb-0">
+    <div class="container">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+</div>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+    <div class="container">
+        <a href="" class="navbar-brand"><img src="img/bg.jpg" alt="" height="50px"></a>
+        <button type="button" class="navbar-toggle" data-target="#mainmenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainmenu">
+            <ul class="navbar-nav mr-auto">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="" class="nav-link">About</a></li>
+                <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a href="" class="nav-link">Service One</a></li>
+                        <li><a href="" class="nav-link">Service Two</a></li>
+                        <li><a href="" class="nav-link">Service Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="" class="nav-link">Gallery</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li><a href="" class="nav-link" data-toggle="modal" data-target="#LoginModal">Login</a></li>
+                <li><a href="" class="nav-link" data-toggle="modal" data-target="#SignUpModal">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="mainslider" class="carousel slide" data-ride="carousel" data-interval="1000">
+    <ol class="carousel-indicators">
+        <li data-target="#mainslider" data-slide-to="0"></li>
+        <li data-target="#mainslider" data-slide-to="1" class="active"></li>
+        <li data-target="#mainslider" data-slide-to="2"></li>
+        <li data-target="#mainslider" data-slide-to="3"></li>
+        <li data-target="#mainslider" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/bg.jpg" class="w-100" height="450" alt="">
+            <div class="carousel-caption">
+                <h3>Hello Dear</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid deleniti eius eum exercitationem laboriosam perspiciatis, quaerat quia quisquam rerum veritatis. Error excepturi laboriosam libero nemo odit pariatur rem sunt vero?</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bg1.gif" class="w-100" height="450" alt="">
+            <div class="carousel-caption">
+                <h3>Hello Pear</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem cum deserunt eum impedit in libero mollitia necessitatibus perspiciatis quia quidem recusandae repellat reprehenderit repudiandae, sapiente sit, temporibus unde voluptatibus.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bg2.jpg" class="w-100" height="450" alt="">
+            <div class="carousel-caption">
+                <h3>Hello Near</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem consequatur, deserunt dolorem eius error expedita laborum libero, magni, maiores modi obcaecati perferendis temporibus voluptas voluptatem? Aut doloribus laudantium voluptate!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/i.jpg" class="w-100" height="450" alt="">
+            <div class="carousel-caption">
+                <h3>Hello Clear</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolor eaque iste nam necessitatibus nemo nostrum nulla perspiciatis quae quod rem repudiandae tempora totam, ut veritatis voluptate voluptatum? Quidem, repellat.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/bg.jpg" class="w-100" height="450" alt="">
+            <div class="carousel-caption">
+                <h3>Hello Boring</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab delectus eos illum iusto pariatur possimus quibusdam suscipit veritatis? A accusamus alias eligendi fuga hic incidunt itaque minima molestias nobis quasi.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#mainslider" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#mainslider" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<!--modal-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+
+            <!--<button type="button" data-toggle="modal" data-target="#LoginModal" class="btn btn-success">Click Me</button>-->
+            <!--<button type="button" data-toggle="modal" data-target="#SignUpModal" class="btn btn-success">Click Me</button>-->
+
+            <div class="modal fade" id="LoginModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Login Form</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action=""></form>
+                        </div>
+                        <div class="modal-footer">
+                            <h2>Modal footer</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="SignUpModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Modal header</h3>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &Cross;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Modal Body</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <h2>Modal footer</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br>
+
+
+
+<script type="application/javascript" src="assest/js/min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="assest/js/bootstrap.min.js"></script>
+</body>
+</html>
